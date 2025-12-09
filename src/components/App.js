@@ -9,9 +9,9 @@ function App() {
     <div id="main">
 
 
-        {/* <button id="click" onClick={()=>setFlag(true)}> Click </button> */}
+        {<button id="click" onClick={()=>setFlag(true)}> Click </button>}
         {
-          flag &&  <p id="para">Hello, I've learnt to use the full-stack evaluation tool. This makes me so</p>
+          flag &&  <p id="para">Hello, I've learnt to use the full-stack evaluation tool. This makes me so happy.</p>
         }
 
     </div>
